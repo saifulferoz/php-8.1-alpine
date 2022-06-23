@@ -1,5 +1,5 @@
-# php-8.0-alpine
-Docker image with php-8.0.10-alpine
+# php-8.1-alpine
+Docker image with php-8.1.7-alpine
 
 All image contain following php extension graphviz and composer.
 
@@ -27,14 +27,14 @@ All image contain following php extension graphviz and composer.
 - iconv
 
 ## Image Variants
-### php-8.0-alpine:cli
+### php-8.1-alpine:cli
 This use the cli base image 
 
-### php-8.0-alpine:npm
+### php-8.1-alpine:npm
 This use the cli base image also contain nodejs and npm and xdebug
 
-### php-8.0-alpine:fpm or php-8.0-alpine:latest
+### php-8.1-alpine:fpm or php-8.1-alpine:latest
 This use the fpm base image and contain the wkhtmltopdf with patched QT build binary
 
-### php-8.0-alpine:dev
+### php-8.1-alpine:dev
 This use the fpm base image and contain the wkhtmltopdf with patched QT build binary and xdebug

@@ -1,6 +1,6 @@
-FROM php:8.0.10-fpm-alpine
+FROM php:8.1.7-fpm-alpine
 
-MAINTAINER Roni Kumar Saha <roni.csed@gmail.com>
+MAINTAINER Saiful Islam Feroz <ferozcse@gmail.com>
 
 #install Exetentions and dependencies
 RUN set -ex; \
